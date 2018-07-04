@@ -1,9 +1,6 @@
-var name = a;
-a =  prompt("what is your name?");
-var name = b;
-b = prompt("what's date today?");
-var name = c; 
-c = prompt("where are you from?");
-console.log(a, b, c);
+var name = prompt("what is your name?");
+var city = prompt("what's date today?");
+var age = prompt("where are you from?");
+console.log(name, city, age);
 
-alert(a+' has a meet '+b+' somewhere in '+c);
+alert(name+' has a meet '+city+' somewhere in '+age);
